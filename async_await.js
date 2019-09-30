@@ -1,3 +1,4 @@
+var async=require("async");
 var fs = require("fs");
 function readfile(filename) {
     return new Promise(function (resolve, reject) {
